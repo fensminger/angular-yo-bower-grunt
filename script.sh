@@ -8,3 +8,8 @@ grunt test                        # test your app
 grunt server                      # preview your app (formerly `grunt server`)
 grunt                             # build the application for deployment
 
+# Après installation de maven
+cd /Users/fer/Documents/gitrepo/SID/demo-grunt/src/main/
+mkdir node
+cd node
+yo angular
