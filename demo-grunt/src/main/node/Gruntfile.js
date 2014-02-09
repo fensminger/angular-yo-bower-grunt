@@ -9,7 +9,7 @@
 
 module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
-  require('time-grunt')(grunt);
+    require('time-grunt')(grunt);
 
   grunt.initConfig({
     yeoman: {
@@ -40,8 +40,31 @@ module.exports = function (grunt) {
           '{.tmp,<%= yeoman.app %>}/scripts/{,*/}*.js',
           '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
         ]
+      },
+      less: {
+          files: ['<%= yeoman.app %>/styles/less/*.less'],
+          tasks: ['less:development']
       }
     },
+      less: {
+          development: {
+              options: {
+                  paths: ['<%= yeoman.app %>/styles/less/']
+              },
+              files: {
+                  "<%= yeoman.app %>/styles/less/bootstrap.css": "<%= yeoman.app %>/styles/less/bootstrap.less"
+              }
+          },
+          production: {
+              options: {
+                  paths: ['<%= yeoman.app %>/styles/less/'],
+                  cleancss: true
+              },
+              files: {
+                  "<%= yeoman.app %>/styles/less/bootstrap.css": "<%= yeoman.app %>/styles/less/bootstrap.less"
+              }
+          }
+      },
     autoprefixer: {
       options: ['last 1 version'],
       dist: {
@@ -310,6 +333,13 @@ module.exports = function (grunt) {
     ]);
   });
 
+    grunt.registerTask('less', function (target) {
+        grunt.loadNpmTasks('grunt-contrib-less');
+        grunt.task.run([
+            'less:development'
+        ]);
+    });
+
   grunt.registerTask('test', [
     'clean:server',
     'concurrent:test',
@@ -318,7 +348,7 @@ module.exports = function (grunt) {
     'karma'
   ]);
 
-  grunt.registerTask('build', [
+    grunt.registerTask('build', [
     'clean:dist',
     'useminPrepare',
     'concurrent:dist',

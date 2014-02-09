@@ -13,3 +13,7 @@ cd /Users/fer/Documents/gitrepo/SID/demo-grunt/src/main/
 mkdir node
 cd node
 yo angular
+
+npm install -g less
+npm install -g grunt-contrib-less
+npm install grunt-include-bootstrap --save-dev
