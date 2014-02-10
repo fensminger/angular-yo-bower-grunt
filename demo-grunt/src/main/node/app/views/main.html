@@ -1,30 +1,30 @@
-<div class="header">
-	<ul class="nav nav-pills pull-right">
-		<li class="active"><a href="#">Home</a></li>
-		<li><a href="#">About</a></li>
-		<li><a href="#">Contact</a></li>
-	</ul>
-	<h3 class="text-muted">node</h3>
+
+
+<h2>Whose dialog is it? <em>"What is it, Precious? What is it?"</em></h2>
+<div ng-controller="MainCtrl as loki">
+    <div class='contentWrapper ng-cloak'>
+        <div class='content'>
+            <div class="row-fluid">
+                <ul class="thumbnails">
+                    <li ng-repeat="item in list1" data-drop="true" ng-model='list1' jqyoui-droppable="{index: {{$index}}, onDrop:'loki.dropCallback(item.title, $index)'}">
+                        <div class="thumbnail" data-drag="{{item.drag}}" data-jqyoui-options="{revert: 'invalid'}" ng-model="list1" jqyoui-draggable="{index: {{$index}},animate:true}">
+                            <h1>
+                                {{item.title}}
+                            </h1>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    {{list1|json}}
 </div>
 
-<div class="jumbotron">
-	<h1>'Allo, 'Allo!</h1>
-	<p class="lead">Always a pleasure scaffolding your apps.</p>
-	<p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-</div>
 
 <div class="row marketing">
-	<h4>HTML5 Boilerplate</h4>
-	<p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-
-	<h4>Angular</h4>
-	<p>AngularJS is a toolset for building the framework most suited to your application development.</p>
-
-	<h4>Karma</h4>
-	<p>Spectacular Test Runner for JavaScript.</p>
+	<h4>Composants bootstrap : </h4>
+    <p><a href="http://getbootstrap.com/css/">http://getbootstrap.com/css/</a></p>
+    <p><a href="#/test/ng-grid">Test ng-grid</a></p>
 </div>
 </div>
 
-<div class="footer">
-	<p>♥ from the SID team</p>
-</div>

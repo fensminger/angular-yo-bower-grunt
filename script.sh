@@ -17,3 +17,5 @@ yo angular
 npm install -g less
 npm install -g grunt-contrib-less
 npm install grunt-include-bootstrap --save-dev
+
+npm install -g connect
