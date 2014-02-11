@@ -40,7 +40,23 @@
     "karma": "~0.10.9",
     "karma-ng-html2js-preprocessor": "~0.1.0",
     "grunt-include-bootstrap": "~0.1.1",
-    "grunt-contrib-less": "~0.9.0"
+    "grunt-contrib-less": "~0.9.0",
+    "gulp-util": "~2.2.14",
+    "gulp": "~3.5.2",
+    "gulp-livereload": "~1.1.1",
+    "gulp-concat": "~2.1.7",
+    "gulp-rename": "~1.0.0",
+    "gulp-minify-css": "~0.3.0",
+    "gulp-clean": "~0.2.4",
+    "gulp-ruby-sass": "~0.3.0",
+    "tiny-lr": "0.0.5",
+    "gulp-uglify": "~0.2.1",
+    "gulp-autoprefixer": "0.0.6",
+    "gulp-notify": "~0.4.5",
+    "gulp-jshint": "~1.4.0",
+    "gulp-cache": "~0.1.1",
+    "gulp-imagemin": "~0.1.5",
+    "gulp-less": "~1.2.1"
   },
   "engines": {
     "node": ">=0.8.0"
