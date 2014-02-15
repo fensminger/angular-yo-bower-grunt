@@ -1,3 +1,4 @@
 demo-grunt/out
 demo-grunt/src/main/node/dist_example
 test
+demo-grunt/src/main/node/dist-gulp
