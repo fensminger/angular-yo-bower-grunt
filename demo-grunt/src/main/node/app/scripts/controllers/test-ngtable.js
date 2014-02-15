@@ -22,6 +22,8 @@ angular.module('mainApp')
             {name: "Nephi", age: 29},
             {name: "Enos", age: 34}];
 
+        $scope.data = data;
+
         $scope.tableParams = new ngTableParams({
             page: 1,            // show first page
             count: 100,          // count per page
@@ -60,5 +62,10 @@ angular.module('mainApp')
             }
             $scope.tableParams.reload();
         }
+
+        $scope.changeSelection = function(user) {
+            console.info(user);
+        }
+
 
     });
