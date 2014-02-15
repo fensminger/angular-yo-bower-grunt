@@ -6,7 +6,8 @@ angular.module('mainApp', [
   'ngSanitize',
   'ngRoute',
         'ngGrid',
-        'ngDragDrop'
+        'ngDragDrop' ,
+        'ngTable'
 ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -21,6 +22,10 @@ angular.module('mainApp', [
       .when('/test/ng-grid', {
         templateUrl: 'views/essai/ng-grid.html',
         controller: 'TestNgGridCtrl'
+      })
+      .when('/test-ngtable', {
+        templateUrl: 'views/test-ngtable.html',
+        controller: 'TestNgtableCtrl'
       })
       .otherwise({
         redirectTo: '/'

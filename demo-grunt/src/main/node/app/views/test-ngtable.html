@@ -1,0 +1,20 @@
+<p>This is the test-ngtable view.</p>
+
+<p><strong>Filter:</strong> {{tableParams.filter()|json}}
+<p><strong>Sorting:</strong> {{tableParams.sorting()|json}}
+
+
+    <button ng-click="tableParams.sorting({})" class="btn btn-default pull-right">Clear sorting</button>
+    <button ng-click="addData()" class="btn btn-default pull-right">Add 10000 row</button>
+
+<table ng-table="tableParams" show-filter="true" class="table">
+    <tr ng-repeat="user in $data">
+        <td data-title="'Name'" filter="{ 'name': 'text' }" sortable="'name'">
+            {{user.name}}
+        </td>
+        <td data-title="'Age'" filter="{ 'age': 'text' }" sortable="'age'">
+            {{user.age}}
+        </td>
+    </tr>
+</table>
+
