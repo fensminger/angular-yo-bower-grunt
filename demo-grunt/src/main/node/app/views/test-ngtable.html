@@ -19,9 +19,15 @@
         <td data-title="'Name'" filter="{ 'name': 'text' }" sortable="'name'">
             {{user.name}}
         </td>
-        <td data-title="'Age'" filter="{ 'age': 'text' }" sortable="'age'">
+        <td data-title="'Age'" filter="{ 'age': 'age' }" sortable="'age'">
             {{user.age}}
         </td>
     </tr>
 </table>
+
+<script type="text/ng-template" id="ng-table/filters/age.html">
+    <input type="checkbox" ng-model="params.filter()['ageNull']" name="filter-nullAge" value="" />
+    <input type="text" ng-model="params.filter()[name]" ng-disabled="params.filter()['ageNull']" name="filter-age"/>
+</script>
+
 

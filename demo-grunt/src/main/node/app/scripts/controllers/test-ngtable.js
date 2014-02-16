@@ -4,6 +4,7 @@ angular.module('mainApp')
   .controller('TestNgtableCtrl', function ($scope, $filter, ngTableParams) {
         var data = [{name: "Moroni", age: 50},
             {name: "Tiancum", age: 43},
+            {name: "ATest Null", age: null},
             {name: "Jacob", age: 27},
             {name: "Nephi", age: 36},
             {name: "Enos", age: 38},
@@ -38,8 +39,19 @@ angular.module('mainApp')
             total: data.length, // length of data
             getData: function($defer, params) {
                 // use build-in angular filter
+                console.log(params.filter());
+                var realFilter = {};
+                if (params.filter().name != "") {
+                    realFilter.name = params.filter().name;
+                }
+                if (params.filter().age != "") {
+                    realFilter.age = params.filter().age;
+                }
+                if (params.filter().ageNull) {
+                    realFilter.age = "!";
+                }
                 var filteredData = params.filter() ?
-                    $filter('filter')(data, params.filter()) :
+                    $filter('filter')(data, realFilter) :
                     data;
                 var orderedData = params.sorting() ?
                     $filter('orderBy')(filteredData, params.orderBy()) :
