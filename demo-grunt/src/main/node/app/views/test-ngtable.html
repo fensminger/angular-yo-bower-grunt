@@ -16,7 +16,7 @@
     <tr ng-repeat="user in $data"
         ng-click="user.$selected = !user.$selected; changeSelection(user)"
         ng-class="{'active': user.$selected}">
-        <td data-title="'Name'" filter="{ 'name': 'text' }" sortable="'name'">
+        <td data-title="'Name'" filter="{ 'name': 'name' }" sortable="'name'">
             {{user.name}}
         </td>
         <td data-title="'Age'" filter="{ 'age': 'age' }" sortable="'age'">
@@ -30,4 +30,8 @@
     <input type="text" ng-model="params.filter()[name]" ng-disabled="params.filter()['ageNull']" name="filter-age"/>
 </script>
 
+<script type="text/ng-template" id="ng-table/filters/name.html">
+    <input type="checkbox" ng-model="params.filter()['nameNull']" name="filter-nullName" value="" />
+    <input type="text" ng-model="params.filter()[name]" ng-disabled="params.filter()['nameNull']" name="filter-name"/>
+</script>
 

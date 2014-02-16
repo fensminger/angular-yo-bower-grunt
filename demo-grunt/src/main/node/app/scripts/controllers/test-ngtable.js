@@ -5,6 +5,7 @@ angular.module('mainApp')
         var data = [{name: "Moroni", age: 50},
             {name: "Tiancum", age: 43},
             {name: "ATest Null", age: null},
+            {name: null, age: 44},
             {name: "Jacob", age: 27},
             {name: "Nephi", age: 36},
             {name: "Enos", age: 38},
@@ -40,16 +41,8 @@ angular.module('mainApp')
             getData: function($defer, params) {
                 // use build-in angular filter
                 console.log(params.filter());
-                var realFilter = {};
-                if (params.filter().name != "") {
-                    realFilter.name = params.filter().name;
-                }
-                if (params.filter().age != "") {
-                    realFilter.age = params.filter().age;
-                }
-                if (params.filter().ageNull) {
-                    realFilter.age = "!";
-                }
+                var realFilter = $filter('prepareParams')(params.filter());
+                console.log(realFilter);
                 var filteredData = params.filter() ?
                     $filter('filter')(data, realFilter) :
                     data;
