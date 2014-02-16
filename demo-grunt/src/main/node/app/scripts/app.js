@@ -7,7 +7,8 @@ angular.module('mainApp', [
   'ngRoute',
         'ngGrid',
         'ngDragDrop' ,
-        'ngTable'
+        'ngTable',
+        'ngTableExport'
 ])
   .config(function ($routeProvider) {
     $routeProvider
