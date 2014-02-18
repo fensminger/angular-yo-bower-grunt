@@ -21,7 +21,53 @@ module.exports = function(config) {
       'app/scripts/**/*.js',
       'test/mock/**/*.js',
       'test/spec/**/*.js'
+      ,
+      'app/bower_components/jquery/dist/jquery.js',
+      'app/bower_components/ng-grid/ng-grid-2.0.7.min.js',
+      'app/scripts/libraries/ngdragndrop.js',
+      'app/bower_components/angular-dragdrop/src/angular-dragdrop.js',
+      'app/bower_components/ng-table/ng-table.js',
+      'app/bower_components/ng-table-export/ng-table-export.js'
     ],
+
+
+   /*
+
+    <script src="bower_components/jquery-ui/ui/minified/jquery-ui.min.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-dragdrop/src/angular-dragdrop.js"></script>
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="bower_components/sass-bootstrap/js/affix.js"></script>
+        <script src="bower_components/sass-bootstrap/js/alert.js"></script>
+        <script src="bower_components/sass-bootstrap/js/button.js"></script>
+        <script src="bower_components/sass-bootstrap/js/carousel.js"></script>
+        <script src="bower_components/sass-bootstrap/js/transition.js"></script>
+        <script src="bower_components/sass-bootstrap/js/collapse.js"></script>
+        <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
+        <script src="bower_components/sass-bootstrap/js/modal.js"></script>
+        <script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
+        <script src="bower_components/sass-bootstrap/js/tab.js"></script>
+        <script src="bower_components/sass-bootstrap/js/tooltip.js"></script>
+        <script src="bower_components/sass-bootstrap/js/popover.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/modules.js -->
+        <script src="bower_components/angular-resource/angular-resource.js"></script>
+        <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+        <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <!-- endbuild -->
+
+        <script src="bower_components/ckeditor/ckeditor.js"></script>
+        <script src="bower_components/ng-table/ng-table.js"></script>
+        <script src="bower_components/ng-table-export/ng-table-export.js"></script>
+        <script src="scripts/libraries/ngdragndrop.js"></script>
+       */
+
+
+
+
 
     // list of files / patterns to exclude
     exclude: [],
