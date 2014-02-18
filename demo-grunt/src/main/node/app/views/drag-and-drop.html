@@ -1,0 +1,23 @@
+<p>This is the drag-and-drop view.</p>
+
+
+<style>
+    .interligne {
+        height: 4px;
+        background: #fbf5d0;
+    }
+
+    .interligne-drop-over {
+        height: 30px;
+        background: #fbf5d0;
+    }
+    .drag {
+        border: 1px solid #000080;
+    }
+</style>
+
+<div class="interligne" droppable on-drag-over="dragOver" on-drag-leave="dragLeave" on-drag-enter="dragEnter" drop-id="0" on-drop="drop"></div>
+<div ng-repeat="value in data">
+    <div class="drag" draggable="value">{{$index}} - {{value.name}} {{value.age}} </div>
+    <div class="interligne" droppable on-drag-over="dragOver" on-drag-leave="dragLeave" on-drag-enter="dragEnter" drop-id="{{$index+1}}" on-drop="drop"></div>
+</div>

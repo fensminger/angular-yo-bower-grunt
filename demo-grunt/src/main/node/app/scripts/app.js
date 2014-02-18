@@ -8,7 +8,8 @@ angular.module('mainApp', [
         'ngGrid',
         'ngDragDrop' ,
         'ngTable',
-        'ngTableExport'
+        'ngTableExport',
+        'DragAndDrop'
 ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -27,6 +28,10 @@ angular.module('mainApp', [
       .when('/test-ngtable', {
         templateUrl: 'views/test-ngtable.html',
         controller: 'TestNgtableCtrl'
+      })
+      .when('/drag-and-drop', {
+        templateUrl: 'views/drag-and-drop.html',
+        controller: 'DragAndDropCtrl'
       })
       .otherwise({
         redirectTo: '/'
