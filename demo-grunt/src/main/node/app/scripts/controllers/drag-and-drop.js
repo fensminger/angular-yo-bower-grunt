@@ -43,6 +43,28 @@ angular.module('mainApp')
             ev.target.className = 'interligne';
         }
 
+        $scope.dragMainEnter = function(ev) {
+            console.log("Main dragEnter -> ");
+            console.log(ev);
+            var mouseDistanceFromTop = ev.target.getBoundingClientRect().top - ev.y;
+            var heightBox = ev.target.getBoundingClientRect().height;
+            var eltDragOver = ev.target.parentNode.previousElementSibling.children[1];
+            angular.element(eltDragOver).removeClass('interligne');
+            angular.element(eltDragOver).addClass('interligne-drop-over');
+            // ev.x, ev.y
+            // ev.target.getBoundingClientRect().top
+            // ev.target.parentNode.previousElementSibling.children[1];
+//            ev.target.className = 'interligne-drop-over';
+        }
+
+        $scope.dragMainLeave = function(ev) {
+            console.log("Main dragLeave -> ");
+            console.log(ev);
+//            var eltDragOver = ev.target.parentNode.previousElementSibling.children[1];
+//            angular.element(eltDragOver).removeClass('interligne-drop-over');
+//            angular.element(eltDragOver).addClass('interligne');
+        }
+
         $scope.drop = function(value, ev) {
             ev.target.className = 'interligne';
             var indexOrig = $scope.data.indexOf(value);
