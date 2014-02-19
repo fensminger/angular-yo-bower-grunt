@@ -3,11 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/sid.war</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="demo-grunt/web/Web" />
-      <element id="directory" name="WEB-INF">
-        <element id="directory" name="classes">
-          <element id="module-output" name="demo-grunt" />
-        </element>
-      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/yo/app/WEB-INF" />
     </root>
   </artifact>
 </component>

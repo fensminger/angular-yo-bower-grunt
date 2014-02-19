@@ -112,7 +112,7 @@ var dragndrop = angular.module('DragAndDrop', [])
           // user events
               userOnDragEnter = $parse(attrs['onDragEnter'])($scope),
               userOnDragLeave = $parse(attrs['onDragLeave'])($scope),
-              userOnDragOver  = $parse(attrs['onDragOver'])($scope);
+              userOnDragOver  = $parse(attrs['onDragOver'])($scope),
               userOnDrop      = $parse(attrs['onDrop'])($scope);
           
           // DragEnter

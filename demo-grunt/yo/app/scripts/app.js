@@ -6,10 +6,9 @@ angular.module('mainApp', [
   'ngSanitize',
   'ngRoute',
         'ngGrid',
-        'ngDragDrop' ,
+        'DragAndDrop' ,
         'ngTable',
-        'ngTableExport',
-        'DragAndDrop'
+        'ngTableExport'
 ])
   .config(function ($routeProvider) {
     $routeProvider
