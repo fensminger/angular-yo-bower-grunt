@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mainApp')
+angular.module('nodeApp')
   .controller('TestNgtableCtrl', function ($scope, $filter, ngTableParams) {
         var data = [{name: "Moroni", age: 50},
             {name: "Tiancum", age: 43},

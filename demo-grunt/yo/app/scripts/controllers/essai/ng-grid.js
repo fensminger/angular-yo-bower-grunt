@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mainApp')
+angular.module('nodeApp')
   .controller('TestNgGridCtrl', function ($scope) {
         $scope.ckvalue = "<b>Bold : </b>Test";
         $scope.nggridList = [];

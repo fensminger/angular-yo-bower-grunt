@@ -17,7 +17,9 @@
 </style>
 
 <div class="interligne" droppable on-drag-over="dragOver" on-drag-leave="dragLeave" on-drag-enter="dragEnter" drop-id="0" on-drop="drop"></div>
-<div ng-repeat="value in data">
-    <div class="drag" draggable="value" droppable on-drag-over="dragOver" on-drag-leave="dragMainLeave" on-drag-enter="dragMainEnter">{{$index}} - {{value.name}} {{value.age}} </div>
-    <div class="interligne" droppable on-drag-leave="dragLeave" on-drag-enter="dragEnter" drop-id="{{$index+1}}" on-drop="drop"></div>
+<div>
+    <div ng-repeat="value in data">
+        <div class="drag" draggable="value" droppable on-drag-over="dragOver" on-drag-leave="dragMainLeave" on-drag-enter="dragMainEnter">{{$index}} - {{value.name}} {{value.age}} </div>
+        <div class="interligne" droppable on-drag-leave="dragLeave" on-drag-enter="dragEnter" drop-id="{{$index+1}}" on-drop="drop"></div>
+    </div>
 </div>

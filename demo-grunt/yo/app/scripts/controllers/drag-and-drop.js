@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mainApp')
+angular.module('nodeApp')
   .controller('DragAndDropCtrl', function ($scope) {
         var data = [{name: "Moroni", age: 50},
             {name: "Tiancum", age: 43},
@@ -10,19 +10,23 @@ angular.module('mainApp')
             {name: "Nephi", age: 36},
             {name: "Enos", age: 38},
             {name: "Enos", age: 37},
-//            {name: "Enos", age: 36},
-//            {name: "Tiancum", age: 43},
-//            {name: "Jacob", age: 27},
-//            {name: "Nephi", age: 29},
-//            {name: "Enos", age: 34},
-//            {name: "Tiancum", age: 43},
-//            {name: "Jacob", age: 27},
-//            {name: "Nephi", age: 29},
-//            {name: "Enos", age: 34},
-//            {name: "Tiancum", age: 43},
-//            {name: "Jacob", age: 27},
-//            {name: "Nephi", age: 29},
+            {name: "Enos", age: 36},
+            {name: "Tiancum", age: 43},
+            {name: "Jacob", age: 27},
+            {name: "Nephi", age: 29},
+            {name: "Enos", age: 34},
+            {name: "Tiancum", age: 43},
+            {name: "Jacob", age: 27},
+            {name: "Nephi", age: 29},
+            {name: "Enos", age: 34},
+            {name: "Tiancum", age: 43},
+            {name: "Jacob", age: 27},
+            {name: "Nephi", age: 29},
             {name: "Enos", age: 34}];
+
+        for(var i = 0; i< data.length; i++) {
+            data[i].id = i;
+        }
 
         $scope.data = data;
 
@@ -48,6 +52,14 @@ angular.module('mainApp')
             console.log(ev);
             var mouseDistanceFromTop = ev.target.getBoundingClientRect().top - ev.y;
             var heightBox = ev.target.getBoundingClientRect().height;
+
+            var listDragObj = ev.target.parentNode.parentNode.children;
+            for(var i = 0; i < listDragObj.length; i++) {
+                var eltDragDone = listDragObj[i].children[1];
+                angular.element(eltDragDone).removeClass('interligne-drop-over');
+                angular.element(eltDragDone).addClass('interligne');
+            }
+
             var eltDragOver = ev.target.parentNode.previousElementSibling.children[1];
             angular.element(eltDragOver).removeClass('interligne');
             angular.element(eltDragOver).addClass('interligne-drop-over');
@@ -70,7 +82,7 @@ angular.module('mainApp')
             var indexOrig = $scope.data.indexOf(value);
             for(indexOrig=0;indexOrig<$scope.data.length; indexOrig++) {
                 var curVal = $scope.data[indexOrig];
-                if (value.name==curVal.name && value.age==curVal.age) {
+                if (value.id==curVal.id) {
                     break;
                 }
             }

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mainApp')
+angular.module('nodeApp')
   .directive('ngCkeditor', function () {
         return {
             restrict: 'A', // only activate on element attribute

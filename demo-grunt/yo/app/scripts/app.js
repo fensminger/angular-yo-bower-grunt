@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mainApp', [
+angular.module('nodeApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',

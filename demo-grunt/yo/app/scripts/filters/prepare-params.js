@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mainApp')
+angular.module('nodeApp')
     .filter('prepareParams', function () {
         function endsWith(str, suffix) {
             return str.indexOf(suffix, str.length - suffix.length) !== -1;
