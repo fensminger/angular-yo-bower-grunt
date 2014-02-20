@@ -1,6 +1,3 @@
-<p>This is the drag-and-drop view.</p>
-
-
 <style>
     .interligne {
         height: 4px;
@@ -8,7 +5,7 @@
     }
 
     .interligne-drop-over {
-        height: 44px;
+        height: 50px;
         /*background: #fbf5d0;*/
     }
     .drag {
@@ -16,13 +13,32 @@
     }
 </style>
 
+<div class="jumbotron">
+    <h3>Nombre de pizzas à commander : {{numberOfPizza}}</h3>
+</div>
+
+<form>
+    <div class="row">
+        <input type="text" ng-model="newPizzaName" class="col-md-offset-1 col-md-4"/>
+        <input type="submit" ng-click="addNewPizza()" value="Ajouter une pizza" class="btn btn-primary col-md-4" style="margin-left: 5px"/>
+    </div>
+    <br/>
+</form>
+
 <div class="interligne" droppable on-drag-over="dragOver" on-drag-leave="dragLeave" on-drag-enter="dragEnter" drop-id="0" on-drop="drop"></div>
 <div>
     <div ng-repeat="value in data">
         <div class="well well-sm drag" draggable="value" droppable on-drag-over="dragOver" on-drag-leave="dragMainLeave" on-drag-enter="dragMainEnter">
-            <span class="badge pull-right">{{value.age}}</span>
+            <span class="pull-right" style="margin-left: 10px;">
+                <button type="button" class="close" aria-hidden="true" ng-click="removePizza(value)">&times;</button>
+            </span>
+            <span class="pull-right" style="margin-left: 10px;">
+                <button type="button" class="close" aria-hidden="true" ng-click="subPizza(value)">-</button>
+            </span>
+            <span class="badge pull-right" ng-click="addPizza(value)" style="cursor: default">{{value.numberOfPizza}}</span>
             <span class="label label-info">{{$index+1}}</span> {{value.name}}
         </div>
         <div class="interligne" droppable on-drag-leave="dragLeave" on-drag-enter="dragEnter" drop-id="{{$index+1}}" on-drop="drop"></div>
     </div>
 </div>
+

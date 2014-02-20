@@ -2,30 +2,33 @@
 
 angular.module('nodeApp')
   .controller('DragAndDropCtrl', function ($scope) {
-        var data = [{name: "Moroni", age: 50},
-            {name: "Tiancum", age: 43},
-            {name: "ATest Null", age: null},
-            {name: null, age: 44},
-            {name: "Jacob", age: 27},
-            {name: "Nephi", age: 36},
-            {name: "Enos", age: 38},
-            {name: "Enos", age: 37},
-            {name: "Enos", age: 36},
-            {name: "Tiancum", age: 43},
-            {name: "Jacob", age: 27},
-            {name: "Nephi", age: 29},
-            {name: "Enos", age: 34},
-            {name: "Tiancum", age: 43},
-            {name: "Jacob", age: 27},
-            {name: "Nephi", age: 29},
-            {name: "Enos", age: 34},
-            {name: "Tiancum", age: 43},
-            {name: "Jacob", age: 27},
-            {name: "Nephi", age: 29},
-            {name: "Enos", age: 34}];
+        var data = [{name: "Moroni", numberOfPizza: 5},
+            {name: "Tiancum", numberOfPizza: 4},
+            {name: "Jacob", numberOfPizza: 2},
+            {name: "Nephi", numberOfPizza: 3},
+            {name: "Enos", numberOfPizza: 3},
+//            {name: "Enos", numberOfPizza: 37},
+//            {name: "Enos", numberOfPizza: 36},
+//            {name: "Tiancum", numberOfPizza: 43},
+//            {name: "Jacob", numberOfPizza: 27},
+//            {name: "Nephi", numberOfPizza: 29},
+//            {name: "Enos", numberOfPizza: 34},
+//            {name: "Tiancum", numberOfPizza: 43},
+//            {name: "Jacob", numberOfPizza: 27},
+//            {name: "Nephi", numberOfPizza: 29},
+//            {name: "Enos", numberOfPizza: 34},
+//            {name: "Tiancum", numberOfPizza: 43},
+//            {name: "Jacob", numberOfPizza: 27},
+//            {name: "Nephi", numberOfPizza: 29},
+            {name: "Enos", numberOfPizza: 7}];
+        
+        $scope.numberOfPizza = 0;
 
         for(var i = 0; i< data.length; i++) {
             data[i].id = i;
+            if (data[i].numberOfPizza!=null) {
+                $scope.numberOfPizza += data[i].numberOfPizza;
+            }
         }
 
         $scope.data = data;
@@ -35,8 +38,8 @@ angular.module('nodeApp')
             ev.dataTransfer.dropEffect = "copyMove";
         }
 
-        $scope.dragEnter = function(ev) {
-            console.log("Ctrl dragEnter -> ");
+        $scope.drnumberOfPizzanter = function(ev) {
+            console.log("Ctrl drnumberOfPizzanter -> ");
             console.log(ev);
             ev.target.className = 'interligne-drop-over';
         }
@@ -48,7 +51,7 @@ angular.module('nodeApp')
         }
 
         $scope.dragMainEnter = function(ev) {
-            console.log("Main dragEnter -> ");
+            console.log("Main drnumberOfPizzanter -> ");
             console.log(ev);
             var mouseDistanceFromTop = ev.target.getBoundingClientRect().top - ev.y;
             var heightBox = ev.target.getBoundingClientRect().height;
@@ -77,15 +80,20 @@ angular.module('nodeApp')
 //            angular.element(eltDragOver).addClass('interligne');
         }
 
-        $scope.drop = function(value, ev) {
-            ev.target.className = 'interligne';
-            var indexOrig = $scope.data.indexOf(value);
-            for(indexOrig=0;indexOrig<$scope.data.length; indexOrig++) {
+        $scope.findIndex = function(value) {
+            for(var indexOrig=0;indexOrig<$scope.data.length; indexOrig++) {
                 var curVal = $scope.data[indexOrig];
                 if (value.id==curVal.id) {
-                    break;
+                    return indexOrig;
                 }
             }
+
+            return 0;
+        }
+
+        $scope.drop = function(value, ev) {
+            ev.target.className = 'interligne';
+            var indexOrig = $scope.findIndex(value);
             console.log(angular.toJson($scope.data));
 //            console.log(indexOrig + " -> " + angular.toJson($scope.data[indexOrig]));
             var indexDest = ev.target.attributes['drop-id'].value;
@@ -100,5 +108,28 @@ angular.module('nodeApp')
             }
             $scope.$apply();
 //            console.log(angular.toJson($scope.data));
+        }
+
+        $scope.addPizza = function(value) {
+            value.numberOfPizza += 1;
+            $scope.numberOfPizza += 1;
+        }
+
+        $scope.removePizza = function(value) {
+            $scope.numberOfPizza -= value.numberOfPizza;
+            var indexOrig = $scope.findIndex(value);
+            $scope.data.splice(indexOrig,1);
+        }
+
+        $scope.addNewPizza = function() {
+            $scope.data.push({name : $scope.newPizzaName, numberOfPizza:0});
+            $scope.newPizzaName = null;
+        }
+
+        $scope.subPizza = function(value) {
+            if (value.numberOfPizza>0) {
+                value.numberOfPizza -= 1;
+                $scope.numberOfPizza -= 1;
+            }
         }
   });
