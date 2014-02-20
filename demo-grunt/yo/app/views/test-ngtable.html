@@ -1,17 +1,18 @@
 <p>This is the test-ngtable view.</p>
 
+<div class="row">
+    <a class="btn btn-primary col-md-2" style="margin-right: 5px;" ng-mousedown="csv.generate()" ng-href="{{ csv.link() }}" download="test.csv">Export to CSV</a>
+    <button class="btn btn-default col-md-3" ng-click="tableParams.data[1].$selected = true" style="margin-right: 5px;" >Select second row</button>
+    <button ng-click="tableParams.sorting({})" class="btn btn-default col-md-2" style="margin-right: 5px;" >Clear sorting</button>
+    <button ng-click="addData()" class="btn btn-default col-md-2">Add 10000 row</button>
+</div>
+<br/>
 <p><strong>Filter:</strong> {{tableParams.filter()|json}}
 <p><strong>Sorting:</strong> {{tableParams.sorting()|json}}
-
-
-    <button ng-click="tableParams.sorting({})" class="btn btn-default pull-right">Clear sorting</button>
-    <button ng-click="addData()" class="btn btn-default pull-right">Add 10000 row</button>
-
 <div>
     <strong>Selected users:</strong> {{ data | filter:{"$selected": true} }}
 </div>
-<button class="btn btn-default" ng-click="tableParams.data[1].$selected = true">Select second row</button>
-<a class="btn btn-primary" ng-mousedown="csv.generate()" ng-href="{{ csv.link() }}" download="test.csv">Export to CSV</a>
+<br/>
 
 <table ng-table="tableParams" show-filter="true" class="table ng-table-rowselected" export-csv="csv">
     <tr ng-repeat="user in $data"

@@ -32,6 +32,10 @@ angular.module('nodeApp', [
         templateUrl: 'views/drag-and-drop.html',
         controller: 'DragAndDropCtrl'
       })
+      .when('/ckeditor', {
+        templateUrl: 'views/ckeditor.html',
+        controller: 'CkeditorCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

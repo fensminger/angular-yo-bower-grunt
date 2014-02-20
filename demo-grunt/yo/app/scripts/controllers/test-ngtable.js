@@ -28,7 +28,7 @@ angular.module('nodeApp')
 
         $scope.tableParams = new ngTableParams({
             page: 1,            // show first page
-            count: 100,          // count per page
+            count: 10,          // count per page
             filter: {
                 name: '',
                 age : ''// initial filter

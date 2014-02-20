@@ -4,22 +4,25 @@
 <style>
     .interligne {
         height: 4px;
-        background: #fbf5d0;
+        /*background: #fbf5d0;*/
     }
 
     .interligne-drop-over {
-        height: 30px;
-        background: #fbf5d0;
+        height: 44px;
+        /*background: #fbf5d0;*/
     }
     .drag {
-        border: 1px solid #000080;
+        margin-bottom: 0px;
     }
 </style>
 
 <div class="interligne" droppable on-drag-over="dragOver" on-drag-leave="dragLeave" on-drag-enter="dragEnter" drop-id="0" on-drop="drop"></div>
 <div>
     <div ng-repeat="value in data">
-        <div class="drag" draggable="value" droppable on-drag-over="dragOver" on-drag-leave="dragMainLeave" on-drag-enter="dragMainEnter">{{$index}} - {{value.name}} {{value.age}} </div>
+        <div class="well well-sm drag" draggable="value" droppable on-drag-over="dragOver" on-drag-leave="dragMainLeave" on-drag-enter="dragMainEnter">
+            <span class="badge pull-right">{{value.age}}</span>
+            <span class="label label-info">{{$index+1}}</span> {{value.name}}
+        </div>
         <div class="interligne" droppable on-drag-leave="dragLeave" on-drag-enter="dragEnter" drop-id="{{$index+1}}" on-drop="drop"></div>
     </div>
 </div>
