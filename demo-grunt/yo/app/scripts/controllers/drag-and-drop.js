@@ -38,8 +38,8 @@ angular.module('nodeApp')
             ev.dataTransfer.dropEffect = "copyMove";
         }
 
-        $scope.drnumberOfPizzanter = function(ev) {
-            console.log("Ctrl drnumberOfPizzanter -> ");
+        $scope.dragEnter = function(ev) {
+            console.log("Ctrl dragEnter -> ");
             console.log(ev);
             ev.target.className = 'interligne-drop-over';
         }
@@ -50,34 +50,45 @@ angular.module('nodeApp')
             ev.target.className = 'interligne';
         }
 
-        $scope.dragMainEnter = function(ev) {
-            console.log("Main drnumberOfPizzanter -> ");
-            console.log(ev);
-            var mouseDistanceFromTop = ev.target.getBoundingClientRect().top - ev.y;
-            var heightBox = ev.target.getBoundingClientRect().height;
+        $scope.dragEnd = function(ev) {
+            resetDropZone(ev);
+            console.log("End drag.");
+        }
 
+        var resetDropZone = function(ev) {
             var listDragObj = ev.target.parentNode.parentNode.children;
             for(var i = 0; i < listDragObj.length; i++) {
                 var eltDragDone = listDragObj[i].children[1];
                 angular.element(eltDragDone).removeClass('interligne-drop-over');
                 angular.element(eltDragDone).addClass('interligne');
             }
+            var firstDragObj = ev.target.parentNode.parentNode.previousElementSibling;
+            var eltFirstDragObj = angular.element(firstDragObj);
+            eltFirstDragObj.removeClass('interligne-drop-over');
+            eltFirstDragObj.addClass('interligne');
+        };
 
-            var eltDragOver = ev.target.parentNode.previousElementSibling.children[1];
-            angular.element(eltDragOver).removeClass('interligne');
-            angular.element(eltDragOver).addClass('interligne-drop-over');
-            // ev.x, ev.y
-            // ev.target.getBoundingClientRect().top
-            // ev.target.parentNode.previousElementSibling.children[1];
-//            ev.target.className = 'interligne-drop-over';
+        $scope.dragMainEnter = function(ev) {
+            console.log("Main dragMainEnter -> ");
+            console.log(ev);
+//            var mouseDistanceFromTop = ev.target.getBoundingClientRect().top - ev.y;
+//            var heightBox = ev.target.getBoundingClientRect().height;
+
+            try {
+                var eltDragOver = ev.target.parentNode.previousElementSibling.children[1];
+                angular.element(eltDragOver).removeClass('interligne');
+                angular.element(eltDragOver).addClass('interligne-drop-over');
+            } catch (e) {
+                var firstDragObj = ev.target.parentNode.parentNode.previousElementSibling;
+                var eltFirstDragObj = angular.element(firstDragObj);
+                eltFirstDragObj.removeClass('interligne');
+                eltFirstDragObj.addClass('interligne-drop-over');
+            }
         }
 
         $scope.dragMainLeave = function(ev) {
             console.log("Main dragLeave -> ");
             console.log(ev);
-//            var eltDragOver = ev.target.parentNode.previousElementSibling.children[1];
-//            angular.element(eltDragOver).removeClass('interligne-drop-over');
-//            angular.element(eltDragOver).addClass('interligne');
         }
 
         $scope.findIndex = function(value) {
