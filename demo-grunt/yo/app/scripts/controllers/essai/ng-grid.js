@@ -5,7 +5,7 @@ angular.module('nodeApp')
         $scope.nggridList = [];
 
         var i;
-        for(i=0;i<100000;i++) {
+        for(i=0;i<50000;i++) {
             $scope.nggridList.push({
                 id : i,
                 libelle : "Voici un très long libellé qu'il faut remplir -> " + i,

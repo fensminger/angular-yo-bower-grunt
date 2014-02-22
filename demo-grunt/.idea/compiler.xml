@@ -25,6 +25,9 @@
         <module name="demo-grunt" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo-grunt" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

@@ -64,91 +64,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test-ngtable.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/test-ngtable.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yo/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
+            <state line="18" column="16" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1140">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ng-ckeditor.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/app/scripts/directives/ng-ckeditor.js">
+      <file leaf-file-name="drag-and-drop.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yo/app/views/drag-and-drop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prepare-params.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/app/scripts/filters/prepare-params.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index-gulp.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/dist/index-gulp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="16" selection-start="903" selection-end="903" vertical-scroll-proportion="-8.208333" vertical-offset="88" max-vertical-offset="1200">
+            <state line="9" column="23" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/dist/index.html">
+        <entry file="file://$PROJECT_DIR$/yo/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="16" selection-start="817" selection-end="817" vertical-scroll-proportion="-8.208333" vertical-offset="73" max-vertical-offset="1125">
+            <state line="84" column="51" selection-start="4074" selection-end="4074" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="1710">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vhost.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/node_modules/connect/lib/middleware/vhost.js">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yo/app/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="37" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="690">
+            <state line="12" column="16" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1725">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vhost.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/node_modules/grunt-contrib-connect/node_modules/connect/lib/middleware/vhost.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="37" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="690">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vhost.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/node_modules/gulp-connect/node_modules/connect/lib/middleware/vhost.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="37" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="690">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vhost.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/node_modules/karma/node_modules/connect/lib/middleware/vhost.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="43" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="690">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yo/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="33" selection-start="509" selection-end="517" vertical-scroll-proportion="0.47107437" vertical-offset="0" max-vertical-offset="605">
+            <state line="21" column="25" selection-start="573" selection-end="573" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="585">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ng-grid.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yo/app/views/essai/ng-grid.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="150">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ng-grid.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/essai/ng-grid.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="19" selection-start="160" selection-end="160" vertical-scroll-proportion="0.16666667" vertical-offset="0" max-vertical-offset="630">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yo/app/views/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="84" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="495">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drag-and-drop.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/drag-and-drop.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="34" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="2280">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ngdragndrop.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yo/app/scripts/libraries/ngdragndrop.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="55" selection-start="1398" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="2940">
               <folding />
             </state>
           </provider>
@@ -164,8 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/package.json" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/main.html" />
         <option value="$PROJECT_DIR$/../script.sh" />
@@ -190,18 +188,11 @@
         <option value="$PROJECT_DIR$/src/main/node/app/scripts/libraries/ngdragndrop.js" />
         <option value="$PROJECT_DIR$/src/main/node/app/scripts/controllers/drag-and-drop.js" />
         <option value="$PROJECT_DIR$/src/main/node/app/views/drag-and-drop.html" />
-        <option value="$PROJECT_DIR$/yo/app/views/main.html" />
         <option value="$PROJECT_DIR$/yo/app/scripts/libraries/ngdragndrop.js" />
-        <option value="$PROJECT_DIR$/yo/app/views/drag-and-drop.html" />
         <option value="$PROJECT_DIR$/yo/.tmp/concat/scripts/scripts.js" />
         <option value="$PROJECT_DIR$/yo/app/index-gulp.html" />
-        <option value="$PROJECT_DIR$/yo/app/index.html" />
-        <option value="$PROJECT_DIR$/yo/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/yo/app/scripts/controllers/contact.js" />
-        <option value="$PROJECT_DIR$/yo/app/scripts/controllers/drag-and-drop.js" />
-        <option value="$PROJECT_DIR$/yo/app/scripts/controllers/essai/ng-grid.js" />
         <option value="$PROJECT_DIR$/yo/app/scripts/controllers/main.js" />
-        <option value="$PROJECT_DIR$/yo/app/scripts/controllers/test-ngtable.js" />
         <option value="$PROJECT_DIR$/yo/app/scripts/directives/ng-ckeditor.js" />
         <option value="$PROJECT_DIR$/yo/app/scripts/filters/prepare-params.js" />
         <option value="$PROJECT_DIR$/yo/dist/index-gulp.html" />
@@ -212,6 +203,18 @@
         <option value="$PROJECT_DIR$/yo/node_modules/gulp-connect/node_modules/connect/lib/middleware/vhost.js" />
         <option value="$PROJECT_DIR$/yo/node_modules/karma/node_modules/connect/lib/middleware/vhost.js" />
         <option value="$PROJECT_DIR$/yo/bower.json" />
+        <option value="$PROJECT_DIR$/yo/app/views/essai/ng-grid.html" />
+        <option value="$PROJECT_DIR$/yo/app/views/ckeditor.html" />
+        <option value="$PROJECT_DIR$/yo/app/scripts/controllers/ckeditor.js" />
+        <option value="$PROJECT_DIR$/yo/app/views/test-ngtable.html" />
+        <option value="$PROJECT_DIR$/yo/app/scripts/controllers/test-ngtable.js" />
+        <option value="$PROJECT_DIR$/yo/app/scripts/controllers/drag-and-drop.js" />
+        <option value="$PROJECT_DIR$/yo/app/views/drag-and-drop.html" />
+        <option value="$PROJECT_DIR$/yo/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/yo/app/styles/main.css" />
+        <option value="$PROJECT_DIR$/yo/app/views/main.html" />
+        <option value="$PROJECT_DIR$/yo/app/index.html" />
+        <option value="$PROJECT_DIR$/yo/app/scripts/controllers/essai/ng-grid.js" />
       </list>
     </option>
   </component>
@@ -253,7 +256,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -392,6 +394,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-grunt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-grunt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -480,6 +504,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -491,12 +516,12 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="FullScreen" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/yo/app/WEB-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/yo/app" />
     <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
   </component>
   <component name="RecentsManager">
@@ -792,7 +817,7 @@
       <method />
     </configuration>
     <configuration default="false" name="WildFly SID" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 8.0.0.CR1" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/sid/index.jsp" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/demo-grunt/index.html" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -889,46 +914,52 @@
       <workItem from="1392272615632" duration="1136000" />
       <workItem from="1392309618262" duration="23443000" />
       <workItem from="1392566072532" duration="15316000" />
-      <workItem from="1392834713526" duration="4446000" />
+      <workItem from="1392834713526" duration="13627000" />
+      <workItem from="1393014858227" duration="32000" />
+      <workItem from="1393014892138" duration="5544000" />
+      <workItem from="1393094711165" duration="67000" />
+      <workItem from="1393094876745" duration="27000" />
+      <workItem from="1393094956053" duration="290000" />
+      <workItem from="1393095316462" duration="1396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67490000" />
+    <option name="totallyTimeSpent" value="84027000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="IntelliTail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IntelliTail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30408162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30408162" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969475" sideWeight="0.49706745" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30408162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30408162" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969475" sideWeight="0.50293255" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969475" sideWeight="0.50303954" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969475" sideWeight="0.4969605" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -953,6 +984,132 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/yo/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1725">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="9" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="84" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/drag-and-drop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="34" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="2280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/scripts/libraries/ngdragndrop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="55" selection-start="1398" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="16" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/views/drag-and-drop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="37" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="33" selection-start="509" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/drag-and-drop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="31" selection-start="2494" selection-end="2494" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="2175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/scripts/libraries/ngdragndrop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="55" selection-start="2644" selection-end="2654" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="2940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="16" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/views/drag-and-drop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="37" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="33" selection-start="509" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/drag-and-drop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="31" selection-start="2494" selection-end="2494" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="2175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/scripts/libraries/ngdragndrop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="55" selection-start="2644" selection-end="2654" vertical-scroll-proportion="0.0" vertical-offset="1665" max-vertical-offset="2940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
@@ -992,149 +1149,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/views/main.html">
+    <entry file="file://$PROJECT_DIR$/yo/app/index-gulp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="147" selection-end="147" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="23" column="16" selection-start="1035" selection-end="1035" vertical-scroll-proportion="-8.208333" vertical-offset="148" max-vertical-offset="1575" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/views/essai/ng-grid.html">
+    <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/contact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+        <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/scripts/directives/ng-ckeditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/scripts/filters/prepare-params.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/dist/index-gulp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="16" selection-start="903" selection-end="903" vertical-scroll-proportion="-8.208333" vertical-offset="88" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/node_modules/grunt-contrib-connect/node_modules/connect/lib/middleware/vhost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="37" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/node_modules/gulp-connect/node_modules/connect/lib/middleware/vhost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="37" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/node_modules/karma/node_modules/connect/lib/middleware/vhost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="43" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/node_modules/connect/lib/middleware/vhost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="37" selection-start="340" selection-end="340" vertical-scroll-proportion="0.32114467" vertical-offset="38" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/test-ngtable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="21" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.6677266" vertical-offset="30" max-vertical-offset="1230" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/views/test-ngtable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="80" selection-start="447" selection-end="447" vertical-scroll-proportion="0.12396694" vertical-offset="0" max-vertical-offset="675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/ckeditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.11923689" vertical-offset="0" max-vertical-offset="629" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/views/ckeditor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.14876033" vertical-offset="0" max-vertical-offset="605" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="16" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/scripts/libraries/ngdragndrop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="44" selection-start="946" selection-end="946" vertical-scroll-proportion="-10.961538" vertical-offset="120" max-vertical-offset="2940">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/views/drag-and-drop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="466" selection-end="466" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/index-gulp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="1035" selection-end="1035" vertical-scroll-proportion="-8.208333" vertical-offset="148" max-vertical-offset="1575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="1021" selection-end="1021" vertical-scroll-proportion="-3.62" vertical-offset="164" max-vertical-offset="1680">
+        <state line="33" column="55" selection-start="1398" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2940">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+        <state line="11" column="18" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/contact.js">
+    <entry file="file://$PROJECT_DIR$/yo/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+        <state line="12" column="16" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1725">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/drag-and-drop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="-1.1538461" vertical-offset="0" max-vertical-offset="1650">
+        <state line="55" column="34" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="2280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/views/drag-and-drop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="23" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="84" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="51" selection-start="4074" selection-end="4074" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="25" selection-start="573" selection-end="573" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/views/essai/ng-grid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/essai/ng-grid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/test-ngtable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/scripts/directives/ng-ckeditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/scripts/filters/prepare-params.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/dist/index-gulp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="903" selection-end="903" vertical-scroll-proportion="-8.208333" vertical-offset="88" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="817" selection-end="817" vertical-scroll-proportion="-8.208333" vertical-offset="73" max-vertical-offset="1125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/node_modules/connect/lib/middleware/vhost.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/node_modules/grunt-contrib-connect/node_modules/connect/lib/middleware/vhost.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/node_modules/gulp-connect/node_modules/connect/lib/middleware/vhost.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/node_modules/karma/node_modules/connect/lib/middleware/vhost.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="43" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="509" selection-end="517" vertical-scroll-proportion="0.47107437" vertical-offset="0" max-vertical-offset="605">
+        <state line="7" column="19" selection-start="160" selection-end="160" vertical-scroll-proportion="0.16666667" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
@@ -1218,6 +1380,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: asm:asm:3.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
