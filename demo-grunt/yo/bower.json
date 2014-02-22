@@ -27,6 +27,7 @@
     "angular-scenario": "~1.2.13"
   },
   "resolutions": {
-    "angular": "1.2.13"
+    "angular": "1.2.13",
+    "ng-grid": "2.0.8"
   }
 }
