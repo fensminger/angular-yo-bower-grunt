@@ -42,3 +42,6 @@ npm install time-grunt jshint-stylish
 npm update
 
 bower install angular-animate --save
+
+
+# for test: grunt test
