@@ -9,6 +9,14 @@ module.exports = function(config) {
     // testing framework to use (jasmine/mocha/qunit/...)
     frameworks: ['jasmine'],
 
+    reporters: ['progress', 'junit'],
+
+    // the default configuration
+    junitReporter: {
+      outputFile: 'test-results.xml',
+      suite: ''
+    },
+
     // list of files / patterns to load in the browser
     files: [
       'app/bower_components/angular/angular.js',
@@ -17,6 +25,7 @@ module.exports = function(config) {
       'app/bower_components/angular-cookies/angular-cookies.js',
       'app/bower_components/angular-sanitize/angular-sanitize.js',
       'app/bower_components/angular-route/angular-route.js',
+      'app/bower_components/angular-animate/angular-animate.js',
       'app/scripts/*.js',
       'app/scripts/**/*.js',
       'test/mock/**/*.js',
@@ -92,11 +101,19 @@ module.exports = function(config) {
     // - Safari (only Mac)
     // - PhantomJS
     // - IE (only Windows)
-    browsers: ['Chrome'],
+    //browsers: ['Chrome'],
+    browsers: ['PhantomJS'],
 
 
     // Continuous Integration mode
     // if true, it capture browsers, run tests and exit
-    singleRun: false
+    //singleRun: false
+    singleRun: true 
+
+    //reporters = ['dots', 'junit'],
+    //junitReporter = {
+    //    outputFile: 'test-results.xml'
+    //}
+
   });
 };
