@@ -82,22 +82,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/bower.json">
+      <file leaf-file-name="karma.conf.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yo/karma.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="455" selection-end="521" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="570">
+            <state line="35" column="30" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1890">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="46" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="karma.conf.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yo/karma.conf.js">
+      <file leaf-file-name="ckeditor.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yo/test/spec/controllers/ckeditor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="59" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.5829832" vertical-offset="0" max-vertical-offset="1890">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="18" column="9" selection-start="397" selection-end="397" vertical-scroll-proportion="0.28361344" vertical-offset="0" max-vertical-offset="952">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/views/main.html" />
         <option value="$PROJECT_DIR$/../script.sh" />
         <option value="$PROJECT_DIR$/src/main/node/app/styles/less/variables.less" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/app.js" />
@@ -208,6 +216,7 @@
         <option value="$PROJECT_DIR$/yo/app/scripts/controllers/essai/ng-grid.js" />
         <option value="$PROJECT_DIR$/yo/bower.json" />
         <option value="$PROJECT_DIR$/yo/karma.conf.js" />
+        <option value="$PROJECT_DIR$/yo/test/spec/controllers/ckeditor.js" />
       </list>
     </option>
   </component>
@@ -792,12 +801,12 @@
       <workItem from="1393094876745" duration="27000" />
       <workItem from="1393094956053" duration="290000" />
       <workItem from="1393095316462" duration="1821000" />
-      <workItem from="1393102550442" duration="413000" />
+      <workItem from="1393102550442" duration="901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84865000" />
+    <option name="totallyTimeSpent" value="85353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -856,13 +865,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yo/app/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1725">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yo/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="9" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="585">
@@ -1024,11 +1026,6 @@
         <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/scripts/directives/ng-ckeditor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585" />
@@ -1166,10 +1163,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/karma.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="59" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.5829832" vertical-offset="0" max-vertical-offset="1890">
+        <state line="35" column="30" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1890">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="46" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/test/spec/controllers/ckeditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="9" selection-start="397" selection-end="397" vertical-scroll-proportion="0.28361344" vertical-offset="0" max-vertical-offset="952">
+          <folding />
         </state>
       </provider>
     </entry>

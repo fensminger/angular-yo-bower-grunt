@@ -1,6 +1,6 @@
 demo-grunt/out
 demo-grunt/src/main/node/dist_example
-test
 demo-grunt/src/main/node/dist-gulp
 demo-grunt/target
 demo-grunt/yo/test-results.xml
+test/*
