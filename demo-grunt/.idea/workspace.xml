@@ -64,19 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/dist/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="16" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1140">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="drag-and-drop.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yo/app/views/drag-and-drop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="23" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="810">
+            <state line="9" column="23" selection-start="171" selection-end="171" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -85,26 +76,28 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yo/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="31" selection-start="4121" selection-end="4121" vertical-scroll-proportion="-7.2083335" vertical-offset="1117" max-vertical-offset="1710">
+            <state line="84" column="54" selection-start="4040" selection-end="4077" vertical-scroll-proportion="-19.375" vertical-offset="795" max-vertical-offset="1710">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/app/styles/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="16" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1725">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yo/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="23" selection-start="784" selection-end="784" vertical-scroll-proportion="0.7178218" vertical-offset="0" max-vertical-offset="606">
+            <state line="19" column="0" selection-start="455" selection-end="521" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="570">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="karma.conf.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yo/karma.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="59" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.5829832" vertical-offset="0" max-vertical-offset="1890">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,7 +105,7 @@
       <file leaf-file-name="ng-grid.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yo/app/views/essai/ng-grid.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="150">
+            <state line="2" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
               <folding />
             </state>
           </provider>
@@ -121,7 +114,7 @@
       <file leaf-file-name="ng-grid.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/essai/ng-grid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+            <state line="7" column="19" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -164,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/package.json" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/main.html" />
         <option value="$PROJECT_DIR$/../script.sh" />
         <option value="$PROJECT_DIR$/src/main/node/app/styles/less/variables.less" />
@@ -215,6 +207,7 @@
         <option value="$PROJECT_DIR$/yo/app/index.html" />
         <option value="$PROJECT_DIR$/yo/app/scripts/controllers/essai/ng-grid.js" />
         <option value="$PROJECT_DIR$/yo/bower.json" />
+        <option value="$PROJECT_DIR$/yo/karma.conf.js" />
       </list>
     </option>
   </component>
@@ -255,7 +248,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -302,7 +295,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,80 +322,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -417,32 +344,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -469,42 +370,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essai" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -921,11 +792,12 @@
       <workItem from="1393094876745" duration="27000" />
       <workItem from="1393094956053" duration="290000" />
       <workItem from="1393095316462" duration="1821000" />
+      <workItem from="1393102550442" duration="413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84452000" />
+    <option name="totallyTimeSpent" value="84865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -947,7 +819,6 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30408162" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969475" sideWeight="0.50303954" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -955,11 +826,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969475" sideWeight="0.4969605" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32801595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -984,13 +856,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yo/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="16" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1725">
@@ -1219,13 +1084,6 @@
         <state line="6" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.14876033" vertical-offset="0" max-vertical-offset="605" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yo/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/scripts/libraries/ngdragndrop.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="55" selection-start="1398" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2940">
@@ -1235,9 +1093,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
+        <state line="11" column="18" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/styles/main.css">
@@ -1250,13 +1106,6 @@
     <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/drag-and-drop.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="34" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="2280">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/views/drag-and-drop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
@@ -1275,7 +1124,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/views/essai/ng-grid.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="150">
+        <state line="2" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
@@ -1287,17 +1136,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/index.html">
+    <entry file="file://$PROJECT_DIR$/yo/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="31" selection-start="4121" selection-end="4121" vertical-scroll-proportion="-7.2083335" vertical-offset="1117" max-vertical-offset="1710">
+        <state line="19" column="0" selection-start="455" selection-end="521" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="570">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yo/bower.json">
+    <entry file="file://$PROJECT_DIR$/yo/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="23" selection-start="784" selection-end="784" vertical-scroll-proportion="0.7178218" vertical-offset="0" max-vertical-offset="606">
+        <state line="18" column="16" selection-start="817" selection-end="817" vertical-scroll-proportion="0.024663677" vertical-offset="248" max-vertical-offset="1140">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/views/drag-and-drop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="23" selection-start="171" selection-end="171" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="54" selection-start="4040" selection-end="4077" vertical-scroll-proportion="-19.375" vertical-offset="795" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="59" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.5829832" vertical-offset="0" max-vertical-offset="1890">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
