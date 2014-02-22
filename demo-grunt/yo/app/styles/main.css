@@ -4,6 +4,36 @@ body {
   padding-bottom: 20px;
 }
 
+
+.view.ng-enter,.view.ng-leave {
+    -webkit-transition: 400ms ease-out-in all;
+    -moz-transition: 400ms ease-in-out all;
+    -ms-transition: 400ms ease-in-out all;
+    -o-transition: 400ms ease-in-out all;
+    transition: 400ms ease-in-out all;
+}
+
+.view.ng-leave {
+    position: absolute !important;
+    display: none;
+    /*top: -20px !important;*/
+}
+
+.view.ng-enter {
+    opacity: 0;
+}
+.view.ng-enter.ng-enter-active {
+    opacity: 1;
+}
+
+.view.ng-leave {
+    opacity: 1;
+}
+.view.ng-leave.ng-leave-active {
+    opacity: 0;
+}
+
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,

@@ -39,10 +39,10 @@
                 <li ng-class="classHome"><a href="#" ng-click="click('home')">Home</a></li>
                 <li ng-class="classContact"><a href="#contact" ng-click="click('contact')">Contact</a></li>
             </ul>
-            <h3 class="text-muted">SID</h3>
+            <h3 class="text-muted">SID - Javascript Industrialisation</h3>
         </div>
 
-        <div ng-view=""></div>
+        <div ng-view="" class="view"></div>
 
         <div class="footer">
             <p>♥ from the SID team</p>
@@ -61,8 +61,9 @@
        <!--ga('send', 'pageview');-->
     <!--</script>-->
 
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
 
     <!-- build:js scripts/plugins.js -->
     <script src="bower_components/sass-bootstrap/js/affix.js"></script>

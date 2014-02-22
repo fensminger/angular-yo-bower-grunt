@@ -8,7 +8,8 @@ angular.module('nodeApp', [
         'ngGrid',
         'DragAndDrop' ,
         'ngTable',
-        'ngTableExport'
+        'ngTableExport',
+        'ngAnimate'
 ])
   .config(function ($routeProvider) {
     $routeProvider
