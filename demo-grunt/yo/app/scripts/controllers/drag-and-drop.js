@@ -122,6 +122,7 @@ angular.module('nodeApp')
             $scope.data.push({firstName:$scope.firstName, name : $scope.newPizzaName, numberOfPizza:1});
             $scope.numberOfPizza += 1;
             $scope.newPizzaName = null;
+            $scope.firstName = null;
         }
 
         $scope.subPizza = function(value) {
