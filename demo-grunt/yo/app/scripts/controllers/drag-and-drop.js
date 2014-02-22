@@ -2,25 +2,11 @@
 
 angular.module('nodeApp')
   .controller('DragAndDropCtrl', function ($scope) {
-        var data = [{name: "Moroni", numberOfPizza: 5},
-            {name: "Tiancum", numberOfPizza: 4},
-            {name: "Jacob", numberOfPizza: 2},
-            {name: "Nephi", numberOfPizza: 3},
-            {name: "Enos", numberOfPizza: 3},
-//            {name: "Enos", numberOfPizza: 37},
-//            {name: "Enos", numberOfPizza: 36},
-//            {name: "Tiancum", numberOfPizza: 43},
-//            {name: "Jacob", numberOfPizza: 27},
-//            {name: "Nephi", numberOfPizza: 29},
-//            {name: "Enos", numberOfPizza: 34},
-//            {name: "Tiancum", numberOfPizza: 43},
-//            {name: "Jacob", numberOfPizza: 27},
-//            {name: "Nephi", numberOfPizza: 29},
-//            {name: "Enos", numberOfPizza: 34},
-//            {name: "Tiancum", numberOfPizza: 43},
-//            {name: "Jacob", numberOfPizza: 27},
-//            {name: "Nephi", numberOfPizza: 29},
-            {name: "Enos", numberOfPizza: 7}];
+        var data = [
+            {firstName: "Adrien", name: "calzone", numberOfPizza: 1}
+            , {firstName: "Wilfried", name: "du Chef", numberOfPizza: 1}
+            , {firstName: "Frédéric", name: "campagnarde", numberOfPizza: 1}
+        ];
         
         $scope.numberOfPizza = 0;
 
@@ -133,7 +119,8 @@ angular.module('nodeApp')
         }
 
         $scope.addNewPizza = function() {
-            $scope.data.push({name : $scope.newPizzaName, numberOfPizza:0});
+            $scope.data.push({firstName:$scope.firstName, name : $scope.newPizzaName, numberOfPizza:1});
+            $scope.numberOfPizza += 1;
             $scope.newPizzaName = null;
         }
 
