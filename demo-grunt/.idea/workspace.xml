@@ -63,100 +63,7 @@
     <favorites_list name="demo-grunt" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="drag-and-drop.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/app/views/drag-and-drop.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="23" selection-start="171" selection-end="171" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="810">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="54" selection-start="4040" selection-end="4077" vertical-scroll-proportion="-19.375" vertical-offset="795" max-vertical-offset="1710">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="karma.conf.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/karma.conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="30" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1890">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="46" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ckeditor.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yo/test/spec/controllers/ckeditor.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="9" selection-start="397" selection-end="397" vertical-scroll-proportion="0.28361344" vertical-offset="0" max-vertical-offset="952">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ng-grid.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/app/views/essai/ng-grid.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ng-grid.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/essai/ng-grid.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/app/views/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="84" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="495">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="drag-and-drop.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/drag-and-drop.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="34" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="2280">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ngdragndrop.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/app/scripts/libraries/ngdragndrop.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="55" selection-start="1398" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="2940">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -207,8 +114,6 @@
         <option value="$PROJECT_DIR$/yo/app/scripts/controllers/ckeditor.js" />
         <option value="$PROJECT_DIR$/yo/app/views/test-ngtable.html" />
         <option value="$PROJECT_DIR$/yo/app/scripts/controllers/test-ngtable.js" />
-        <option value="$PROJECT_DIR$/yo/app/scripts/controllers/drag-and-drop.js" />
-        <option value="$PROJECT_DIR$/yo/app/views/drag-and-drop.html" />
         <option value="$PROJECT_DIR$/yo/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/yo/app/styles/main.css" />
         <option value="$PROJECT_DIR$/yo/app/views/main.html" />
@@ -217,6 +122,8 @@
         <option value="$PROJECT_DIR$/yo/bower.json" />
         <option value="$PROJECT_DIR$/yo/karma.conf.js" />
         <option value="$PROJECT_DIR$/yo/test/spec/controllers/ckeditor.js" />
+        <option value="$PROJECT_DIR$/yo/app/views/drag-and-drop.html" />
+        <option value="$PROJECT_DIR$/yo/app/scripts/controllers/drag-and-drop.js" />
       </list>
     </option>
   </component>
@@ -257,7 +164,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,7 +178,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
+              <option name="myItemId" value="live-fred" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,107 +189,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -801,16 +612,17 @@
       <workItem from="1393094876745" duration="27000" />
       <workItem from="1393094956053" duration="290000" />
       <workItem from="1393095316462" duration="1821000" />
-      <workItem from="1393102550442" duration="901000" />
+      <workItem from="1393102550442" duration="3576000" />
+      <workItem from="1393108574137" duration="271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85353000" />
+    <option name="totallyTimeSpent" value="88311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -834,7 +646,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969475" sideWeight="0.4969605" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969475" sideWeight="0.4969605" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32801595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -865,18 +677,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yo/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="9" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="84" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="495">
-          <folding />
-        </state>
+        <state line="22" column="84" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="495" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/drag-and-drop.js">
@@ -895,9 +698,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1125">
-          <folding />
-        </state>
+        <state line="18" column="16" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/views/drag-and-drop.html">
@@ -909,16 +710,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="509" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="555">
-          <folding />
-        </state>
+        <state line="19" column="33" selection-start="509" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="555" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="375">
-          <folding />
-        </state>
+        <state line="11" column="17" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/drag-and-drop.js">
@@ -937,9 +734,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1125">
-          <folding />
-        </state>
+        <state line="18" column="16" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/views/drag-and-drop.html">
@@ -951,16 +746,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="509" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="555">
-          <folding />
-        </state>
+        <state line="19" column="33" selection-start="509" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="555" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="375">
-          <folding />
-        </state>
+        <state line="11" column="17" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/drag-and-drop.js">
@@ -979,9 +770,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1011,9 +800,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
+        <state line="5" column="16" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/index-gulp.html">
@@ -1081,13 +868,6 @@
         <state line="6" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.14876033" vertical-offset="0" max-vertical-offset="605" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/scripts/libraries/ngdragndrop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="55" selection-start="1398" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2940">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="18" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735" />
@@ -1095,23 +875,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1725">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/drag-and-drop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="34" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="2280">
-          <folding />
-        </state>
+        <state line="12" column="16" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1725" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="84" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="495">
-          <folding />
-        </state>
+        <state line="22" column="84" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="495" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/.bowerrc">
@@ -1119,44 +888,50 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/views/essai/ng-grid.html">
+    <entry file="file://$PROJECT_DIR$/yo/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
+        <state line="19" column="0" selection-start="455" selection-end="521" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="570" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="16" selection-start="817" selection-end="817" vertical-scroll-proportion="0.024663677" vertical-offset="248" max-vertical-offset="1140" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/test/spec/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/test/spec/controllers/ckeditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="9" selection-start="397" selection-end="397" vertical-scroll-proportion="0.28361344" vertical-offset="0" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/drag-and-drop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="95" selection-start="3843" selection-end="3843" vertical-scroll-proportion="0.6144958" vertical-offset="900" max-vertical-offset="2100">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/essai/ng-grid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+        <state line="7" column="19" selection-start="160" selection-end="160" vertical-scroll-proportion="0.11029412" vertical-offset="0" max-vertical-offset="952">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yo/bower.json">
+    <entry file="file://$PROJECT_DIR$/yo/app/views/essai/ng-grid.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="455" selection-end="521" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="570">
+        <state line="2" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.032327585" vertical-offset="0" max-vertical-offset="928">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yo/dist/index.html">
+    <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="817" selection-end="817" vertical-scroll-proportion="0.024663677" vertical-offset="248" max-vertical-offset="1140">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/views/drag-and-drop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="171" selection-end="171" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="54" selection-start="4040" selection-end="4077" vertical-scroll-proportion="-19.375" vertical-offset="795" max-vertical-offset="1710">
+        <state line="33" column="20" selection-start="861" selection-end="866" vertical-scroll-proportion="0.51995796" vertical-offset="0" max-vertical-offset="952">
           <folding />
         </state>
       </provider>
@@ -1164,22 +939,27 @@
     <entry file="file://$PROJECT_DIR$/yo/karma.conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="30" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1890">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/app/scripts/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="46" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yo/test/spec/controllers/ckeditor.js">
+    <entry file="file://$PROJECT_DIR$/yo/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="9" selection-start="397" selection-end="397" vertical-scroll-proportion="0.28361344" vertical-offset="0" max-vertical-offset="952">
+        <state line="84" column="54" selection-start="4040" selection-end="4077" vertical-scroll-proportion="0.5081967" vertical-offset="795" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/views/drag-and-drop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="44" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.6885246" vertical-offset="45" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/app/scripts/libraries/ngdragndrop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="55" selection-start="1398" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2940">
           <folding />
         </state>
       </provider>
@@ -1239,11 +1019,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|demo-grunt</last-edited>
+          <last-edited>live-fred</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
