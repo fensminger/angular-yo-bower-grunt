@@ -5,10 +5,10 @@ angular.module('nodeApp', [
   'ngResource',
   'ngSanitize',
   'ngRoute',
-//        'ngGrid',
+        'ngGrid',
         'DragAndDrop' ,
-//        'ngTable',
-//        'ngTableExport',
+        'ngTable',
+        'ngTableExport',
         'ngAnimate'
 ])
   .config(function ($routeProvider) {

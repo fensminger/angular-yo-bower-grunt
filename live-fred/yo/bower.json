@@ -16,10 +16,17 @@
     "angular-ui": "0.4.0",
     "jquery-ui": "latest",
     "ckeditor": "#stable/standard",
-    "angular-animate": "~1.2.13"
+    "angular-animate": "~1.2.13",
+    "ng-grid": "2.0.8",
+    "ng-table": "~0.3.1",
+    "ng-table-export": "*"
   },
   "devDependencies": {
     "angular-mocks": "~1.2.13",
     "angular-scenario": "~1.2.13"
+  },
+  "resolutions": {
+    "angular": "~1.2.13",
+    "ng-grid": "2.0.8"
   }
 }
