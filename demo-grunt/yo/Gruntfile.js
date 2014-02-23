@@ -319,6 +319,13 @@ module.exports = function (grunt) {
           ]
         }
       }
+    }, 
+    plato: {
+      indus: {
+        files: {
+          'test/plato': ['<%= yeoman.app %>}/scripts/**/*.js', 'test/spec/**/*.js']
+        }
+      }
     }
   });
 
@@ -352,6 +359,7 @@ module.exports = function (grunt) {
   ]);
 
     grunt.registerTask('build', [
+    'plato:indus',
     'clean:dist',
     'useminPrepare',
     'concurrent:dist',
