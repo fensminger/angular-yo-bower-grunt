@@ -12,7 +12,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
       <!-- build:css(.tmp) styles/less/bootstrap.css -->
-      <link rel="stylesheet" href="styles/less/bootstrap.css">
+      <link rel="stylesheet" href="styles/less/bootstrap.min.css">
       <!-- endbuild -->
       <!-- build:css(.tmp) styles/main.css -->
       <link rel="stylesheet" href="styles/main.css">
@@ -39,10 +39,10 @@
                 <li ng-class="classHome"><a href="#" ng-click="click('home')">Home</a></li>
                 <li ng-class="classContact"><a href="#contact" ng-click="click('contact')">Contact</a></li>
             </ul>
-            <h3 class="text-muted">SID</h3>
+            <h3 class="text-muted">SID - Javascript Industrialisation</h3>
         </div>
 
-        <div ng-view=""></div>
+        <div ng-view="" class="view"></div>
 
         <div class="footer">
             <p>♥ from the SID team</p>
@@ -61,10 +61,10 @@
        <!--ga('send', 'pageview');-->
     <!--</script>-->
 
-    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/jquery-ui/ui/minified/jquery-ui.min.js"></script>
     <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-dragdrop/src/angular-dragdrop.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
 
     <!-- build:js scripts/plugins.js -->
     <script src="bower_components/sass-bootstrap/js/affix.js"></script>
@@ -88,7 +88,9 @@
     <script src="bower_components/angular-route/angular-route.js"></script>
     <!-- endbuild -->
 
-    <script src="bower_components/ng-grid/ng-grid-2.0.7.min.js"></script>
+    <script src="bower_components/ng-grid/ng-grid-2.0.8.min.js"></script>
+    <script src="bower_components/ng-table/ng-table.js"></script>
+    <script src="bower_components/ng-table-export/ng-table-export.js"></script>
     <script src="bower_components/ckeditor/ckeditor.js"></script>
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
