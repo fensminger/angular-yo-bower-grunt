@@ -323,7 +323,8 @@ module.exports = function (grunt) {
     plato: {
       indus: {
         files: {
-          'test/plato': ['<%= yeoman.app %>}/scripts/**/*.js', 'test/spec/**/*.js']
+        //  'test/plato': ['<%= yeoman.app %>}/scripts/**/*.js', 'test/spec/**/*.js']
+           'test/plato': ['app/scripts/**/*.js', 'test/spec/**/*.js']
         }
       }
     }
