@@ -62,7 +62,8 @@
     "gulp-less": "~1.2.1",
     "gulp-connect": "~0.7.0", 
     "karma-coverage":"~0.1", 
-    "grunt-plato":"~0.2.1" 
+    "grunt-plato":"~0.2.1",
+    "jshint-jenkins-checkstyle-reporter":"~0.1" 
   },
   "engines": {
     "node": ">=0.8.0"
