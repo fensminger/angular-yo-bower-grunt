@@ -1,0 +1,39 @@
+<p>This is the test-ngtable view.</p>
+
+<div class="row">
+    <a class="btn btn-primary col-md-2" style="margin-right: 5px;" ng-mousedown="csv.generate()" ng-href="{{ csv.link() }}" download="test.csv">Export to CSV</a>
+    <button class="btn btn-default col-md-3" ng-click="tableParams.data[1].$selected = true" style="margin-right: 5px;" >Select second row</button>
+    <button ng-click="tableParams.sorting({})" class="btn btn-default col-md-2" style="margin-right: 5px;" >Clear sorting</button>
+    <button ng-click="addData()" class="btn btn-default col-md-2">Add 10000 row</button>
+</div>
+<br/>
+<p><strong>Filter:</strong> {{tableParams.filter()|json}}
+<p><strong>Sorting:</strong> {{tableParams.sorting()|json}}
+<div>
+    <strong>Selected users:</strong> {{ data | filter:{"$selected": true} }}
+</div>
+<br/>
+
+<table ng-table="tableParams" show-filter="true" class="table ng-table-rowselected" export-csv="csv">
+    <tr ng-repeat="user in $data"
+        ng-click="user.$selected = !user.$selected; changeSelection(user)"
+        ng-class="{'active': user.$selected}">
+        <td data-title="'Name'" filter="{ 'name': 'name' }" sortable="'name'">
+            {{user.name}}
+        </td>
+        <td data-title="'Age'" filter="{ 'age': 'age' }" sortable="'age'">
+            {{user.age}}
+        </td>
+    </tr>
+</table>
+
+<script type="text/ng-template" id="ng-table/filters/age.html">
+    <input type="checkbox" ng-model="params.filter()['ageNull']" name="filter-nullAge" value="" />
+    <input type="text" ng-model="params.filter()[name]" ng-disabled="params.filter()['ageNull']" name="filter-age"/>
+</script>
+
+<script type="text/ng-template" id="ng-table/filters/name.html">
+    <input type="checkbox" ng-model="params.filter()['nameNull']" name="filter-nullName" value="" />
+    <input type="text" ng-model="params.filter()[name]" ng-disabled="params.filter()['nameNull']" name="filter-name"/>
+</script>
+
