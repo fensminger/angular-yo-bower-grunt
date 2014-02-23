@@ -9,13 +9,35 @@ module.exports = function(config) {
     // testing framework to use (jasmine/mocha/qunit/...)
     frameworks: ['jasmine'],
 
-    reporters: ['progress', 'junit'],
+    // preprocessors
+    preprocessors: {
+       'app/scripts/**/*.js': ['coverage']
+    },
+
+   // reporters: ['progress', 'junit'],
 
     // the default configuration
-    junitReporter: {
-      outputFile: 'test-results.xml',
-      suite: ''
+    //junitReporter: {
+    //  outputFile: 'test-results.xml',
+    //  suite: ''
+    //},
+
+
+	
+    reporters: ['progress', 'junit', 'coverage'],
+	// junit reporter configuration
+	junitReporter: {
+        outputFile: 'test/reporter/test-results.xml',
+        suite: ''
     },
+
+    // coverage configuration
+    coverageReporter: {
+        type : 'cobertura',
+        dir : 'test/coverage/', 
+        file : 'coverage.xml'
+    },
+
 
     // list of files / patterns to load in the browser
     files: [
@@ -39,43 +61,6 @@ module.exports = function(config) {
       'app/bower_components/ng-table/ng-table.js',
       'app/bower_components/ng-table-export/ng-table-export.js'
     ],
-
-
-   /*
-
-    <script src="bower_components/jquery-ui/ui/minified/jquery-ui.min.js"></script>
-        <script src="bower_components/angular/angular.js"></script>
-        <script src="bower_components/angular-dragdrop/src/angular-dragdrop.js"></script>
-
-        <!-- build:js scripts/plugins.js -->
-        <script src="bower_components/sass-bootstrap/js/affix.js"></script>
-        <script src="bower_components/sass-bootstrap/js/alert.js"></script>
-        <script src="bower_components/sass-bootstrap/js/button.js"></script>
-        <script src="bower_components/sass-bootstrap/js/carousel.js"></script>
-        <script src="bower_components/sass-bootstrap/js/transition.js"></script>
-        <script src="bower_components/sass-bootstrap/js/collapse.js"></script>
-        <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
-        <script src="bower_components/sass-bootstrap/js/modal.js"></script>
-        <script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
-        <script src="bower_components/sass-bootstrap/js/tab.js"></script>
-        <script src="bower_components/sass-bootstrap/js/tooltip.js"></script>
-        <script src="bower_components/sass-bootstrap/js/popover.js"></script>
-        <!-- endbuild -->
-
-        <!-- build:js scripts/modules.js -->
-        <script src="bower_components/angular-resource/angular-resource.js"></script>
-        <script src="bower_components/angular-cookies/angular-cookies.js"></script>
-        <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-        <script src="bower_components/angular-route/angular-route.js"></script>
-        <!-- endbuild -->
-
-        <script src="bower_components/ckeditor/ckeditor.js"></script>
-        <script src="bower_components/ng-table/ng-table.js"></script>
-        <script src="bower_components/ng-table-export/ng-table-export.js"></script>
-        <script src="scripts/libraries/ngdragndrop.js"></script>
-       */
-
-
 
 
 
@@ -111,10 +96,6 @@ module.exports = function(config) {
     //singleRun: false
     singleRun: true 
 
-    //reporters = ['dots', 'junit'],
-    //junitReporter = {
-    //    outputFile: 'test-results.xml'
-    //}
 
   });
 };

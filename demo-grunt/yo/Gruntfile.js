@@ -123,8 +123,11 @@ module.exports = function (grunt) {
     },
     jshint: {
       options: {
-        jshintrc: '.jshintrc',
-        reporter: require('jshint-stylish')
+        //jshintrc: '.jshintrc',
+        //reporter: require('jshint-stylish')
+        //reporter: 'checkstyle' 
+        reporter: require('jshint-jenkins-checkstyle-reporter'),
+        reporterOutput: 'report-jshint-checkstyle.xml'
       },
       all: [
         'Gruntfile.js',
