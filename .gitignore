@@ -5,3 +5,6 @@ live-fred/out
 live-fred/target
 live-fred/yo/test-results.xml
 test/*
+demo-grunt/yo/test/coverage
+demo-grunt/yo/test/plato
+demo-grunt/yo/test/reporter
