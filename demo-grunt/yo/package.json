@@ -60,7 +60,9 @@
     "gulp-cache": "~0.1.1",
     "gulp-imagemin": "~0.1.5",
     "gulp-less": "~1.2.1",
-    "gulp-connect": "~0.7.0"
+    "gulp-connect": "~0.7.0", 
+    "karma-coverage":"~0.1", 
+    "grunt-plato":"~0.2.1" 
   },
   "engines": {
     "node": ">=0.8.0"
