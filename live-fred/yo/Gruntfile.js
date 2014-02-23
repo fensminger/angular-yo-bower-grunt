@@ -41,30 +41,30 @@ module.exports = function (grunt) {
           '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
         ]
       }
-//      , less: {
-//          files: ['<%= yeoman.app %>/styles/less/*.less'],
-//          tasks: ['less:development']
-//      }
+      , less: {
+          files: ['<%= yeoman.app %>/styles/less/*.less'],
+          tasks: ['less:development']
+      }
     }
-//      ,less: {
-//          development: {
-//              options: {
-//                  paths: ['<%= yeoman.app %>/styles/less/']
-//              },
-//              files: {
-//                  "<%= yeoman.app %>/styles/less/bootstrap.css": "<%= yeoman.app %>/styles/less/bootstrap.less"
-//              }
-//          },
-//          production: {
-//              options: {
-//                  paths: ['<%= yeoman.app %>/styles/less/'],
-//                  cleancss: true
-//              },
-//              files: {
-//                  "<%= yeoman.app %>/styles/less/bootstrap.css": "<%= yeoman.app %>/styles/less/bootstrap.less"
-//              }
-//          }
-//      }
+      ,less: {
+          development: {
+              options: {
+                  paths: ['<%= yeoman.app %>/styles/less/']
+              },
+              files: {
+                  "<%= yeoman.app %>/styles/less/bootstrap.css": "<%= yeoman.app %>/styles/less/bootstrap.less"
+              }
+          },
+          production: {
+              options: {
+                  paths: ['<%= yeoman.app %>/styles/less/'],
+                  cleancss: true
+              },
+              files: {
+                  "<%= yeoman.app %>/styles/less/bootstrap.css": "<%= yeoman.app %>/styles/less/bootstrap.less"
+              }
+          }
+      }
     , autoprefixer: {
       options: ['last 1 version'],
       dist: {
@@ -336,12 +336,12 @@ module.exports = function (grunt) {
     ]);
   });
 
-//    grunt.registerTask('less', function (target) {
-//        grunt.loadNpmTasks('grunt-contrib-less');
-//        grunt.task.run([
-//            'less:development'
-//        ]);
-//    });
+    grunt.registerTask('less', function (target) {
+        grunt.loadNpmTasks('grunt-contrib-less');
+        grunt.task.run([
+            'less:development'
+        ]);
+    });
 
   grunt.registerTask('test', [
     'clean:server',
@@ -353,6 +353,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('build', [
     'clean:dist',
+        'less:production',
     'useminPrepare',
     'concurrent:dist',
     'autoprefixer',
