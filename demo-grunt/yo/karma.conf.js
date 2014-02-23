@@ -34,7 +34,8 @@ module.exports = function(config) {
     // coverage configuration
     coverageReporter: {
         type : 'cobertura',
-        dir : 'test/coverage/'
+        dir : 'test/coverage/', 
+        file : 'coverage.xml'
     },
 
 
