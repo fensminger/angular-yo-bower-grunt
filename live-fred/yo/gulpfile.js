@@ -16,6 +16,31 @@ var gulp = require('gulp'),
     lr = require('tiny-lr'),
     server = lr();
 
+
+var ngmin = require('gulp-ngmin');
+var clean = require('gulp-clean');
+
+gulp.task('clean', function() {
+    gulp.src('dist-gulp/**', {read: false})
+        .pipe(clean({force: true}));
+});
+
+gulp.task('minify', function () {
+    gulp.src('app/scripts/**/*.js')
+        .pipe(ngmin())
+        .pipe(gulp.dest('dist-gulp/scripts'));
+});
+
+//gulp.task('default', ['clean', 'minify']);
+
+// Default task
+gulp.task('default', ['clean'], function() {
+    gulp.start('clean', 'styles', 'scripts', 'images', 'copy');
+});
+
+
+
+
 var staticPages = ['app/styles/main.css'
     , 'app/bower_components/**/*.js', 'app/bower_components/**/*.png'
     ,'app/bower_components/**/*.css', 'app/fonts/**', 'app/views/**', 'app/WEB-INF/**', 'app/*'];
@@ -47,6 +72,7 @@ gulp.task('scripts', function() {
         .pipe(concat('main.js'))
         .pipe(gulp.dest('dist-gulp/scripts'))
         .pipe(rename({ suffix: '.min' }))
+        .pipe(ngmin())
         .pipe(uglify())
         .pipe(livereload(server))
         .pipe(gulp.dest('dist-gulp/scripts'))
@@ -60,17 +86,6 @@ gulp.task('images', function() {
         .pipe(livereload(server))
         .pipe(gulp.dest('dist-gulp/images'))
         .pipe(notify({ message: 'Images task complete' }));
-});
-
-// Clean
-gulp.task('clean', function() {
-    return gulp.src(['dist-gulp/**'], {read: false})
-        .pipe(clean());
-});
-
-// Default task
-gulp.task('default', ['clean'], function() {
-    gulp.start('styles', 'scripts', 'images', 'copy');
 });
 
 // Watch
