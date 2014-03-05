@@ -17,7 +17,7 @@
     "angular-dragdrop": "1.0.5",
     "jquery-ui": "latest",
     "ng-grid": "https://github.com/angular-ui/ng-grid.git#2.0.8",
-    "ckeditor": "#stable/standard",
+    "ckeditor": "#standard/4.3.3",
     "ng-table-export": "*",
     "ng-table": "~0.3.1",
     "angular-animate": "1.2.13"
