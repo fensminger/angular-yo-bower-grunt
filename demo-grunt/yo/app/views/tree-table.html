@@ -1,0 +1,74 @@
+<p>This is the tree-table view.</p>
+
+<!--<div class="row">-->
+    <!--<div class="col-md-5" style="height: 200px; overflow: hidden" id="leftScroll">-->
+        <!--<p ng-repeat="value in values" style="white-space: nowrap">{{value}} {{$index}}</p>-->
+    <!--</div>-->
+    <!--<div class="col-md-5" style="height: 200px; overflow: scroll" id="scroll">-->
+        <!--<p ng-repeat="value in values" style="white-space: nowrap">{{value}} {{$index}}</p>-->
+    <!--</div>-->
+<!--</div>-->
+
+<style>
+    .viewport {
+        white-space: nowrap;
+        max-height: 500px;
+        border: 1px solid blue;
+    }
+    .viewport.real,.viewport.slice,.viewport.virtual{
+        max-height: 400px;
+    }
+
+    .viewport li span{
+        background: #eee;
+    }
+    .viewport li:nth-child(even) span {
+        background: #ccc;
+    }
+
+    .real{
+        overflow: auto;
+    }
+    .real ul, .slice ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    tr {
+        height: 25px;
+    }
+    td {
+        font: 12px monospace;
+        line-height: 1em !important;
+    }
+    td.time {
+        width: 7em;
+    }
+    .line-count {
+        display: inline-block;
+        width: 7em;
+    }
+</style>
+
+
+<div class="row">
+    <div class="col-md-5" style="height: 200px; overflow: hidden !important;">
+        <div class="viewport virtual">
+            <ul>
+                <li sf-virtual-repeat="value in bigvalues" sf-scroll-bar="N">
+                    <span>{{value}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-5" style="height: 200px; overflow: scroll" id="scroll">
+        <div class="viewport virtual">
+            <ul id="virtual">
+                <li sf-virtual-repeat="value in bigvalues"  sf-scroll-bar="O">
+                    <span>{{value}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

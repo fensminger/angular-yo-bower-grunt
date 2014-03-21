@@ -9,7 +9,8 @@ angular.module('nodeApp', [
         'DragAndDrop' ,
         'ngTable',
         'ngTableExport',
-        'ngAnimate'
+        'ngAnimate',
+        'sf.virtualScroll'
 ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -36,6 +37,10 @@ angular.module('nodeApp', [
       .when('/ckeditor', {
         templateUrl: 'views/ckeditor.html',
         controller: 'CkeditorCtrl'
+      })
+      .when('/tree-table', {
+        templateUrl: 'views/tree-table.html',
+        controller: 'TreeTableCtrl'
       })
       .otherwise({
         redirectTo: '/'

@@ -7,7 +7,7 @@ angular.module('nodeApp')
             , {firstName: "Wilfried", name: "du Chef", numberOfPizza: 1}
             , {firstName: "Frédéric", name: "campagnarde", numberOfPizza: 1}
         ];
-        
+
         $scope.numberOfPizza = 0;
 
         for(var i = 0; i< data.length; i++) {
