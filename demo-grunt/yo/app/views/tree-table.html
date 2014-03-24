@@ -13,7 +13,7 @@
     .viewport {
         white-space: nowrap;
         max-height: 500px;
-        border: 1px solid blue;
+        /*border: 1px solid blue;*/
     }
     .viewport.real,.viewport.slice,.viewport.virtual{
         max-height: 400px;
@@ -49,26 +49,60 @@
         display: inline-block;
         width: 7em;
     }
+
+
+    .even {
+        background-color: aquamarine;
+    }
+    .evenleft {
+        background-color: #ddffdd;
+    }
 </style>
 
 
-<div class="row">
-    <div class="col-md-5" style="height: 200px; overflow: hidden !important;">
+<div style="position: relative">
+    <div style="overflow: hidden !important; float: left;">
         <div class="viewport virtual">
-            <ul>
-                <li sf-virtual-repeat="value in bigvalues" sf-scroll-bar="N">
-                    <span>{{value}}</span>
-                </li>
-            </ul>
+            <div>
+                <div style="width: 300px;background-color: #00fF11;">
+                    <div style="width: 300px; overflow: hidden;">Titre Arbre</div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="col-md-5" style="height: 200px; overflow: scroll" id="scroll">
+    <div style="overflow: hidden; width: 200px;" id="treeHeader">
         <div class="viewport virtual">
-            <ul id="virtual">
-                <li sf-virtual-repeat="value in bigvalues"  sf-scroll-bar="O">
-                    <span>{{value}}</span>
-                </li>
-            </ul>
+            <div>
+                <div style="width: 300px; background-color: #00fF11;">
+                    <div style="width: 50px; overflow: hidden; float: left">Col1</div>
+                    <div style="width: 150px; overflow: hidden; float:left;">Col2</div>
+                    <div style="width: 100px; overflow: hidden;">Col3</div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+<div style="position: relative">
+    <div style="height: 200px; overflow: hidden !important; float: left;">
+        <div class="viewport virtual">
+            <div>
+                <div sf-virtual-repeat="value in bigvalues" sf-scroll-bar="N" style="width: 300px" ng-class-even="'evenleft'">
+                    <div style="width: 300px; overflow: hidden;">{{value}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="height: 200px; overflow: scroll; width: 200px;" id="scroll">
+        <div class="viewport virtual">
+            <div id="virtual">
+                <div sf-virtual-repeat="value in bigvalues"  sf-scroll-bar="O" style="width: 300px" ng-class-even="'even'">
+                    <div style="width: 50px; overflow: hidden; float: left">{{value.col1}}</div>
+                    <div style="width: 150px; overflow: hidden; float:left;">{{value.lib}}</div>
+                    <div style="width: 100px; overflow: hidden;">{{value.lib2}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br clear="">

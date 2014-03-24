@@ -19,7 +19,11 @@ angular.module('nodeApp')
 //        }
 
         for(var i =0; i<50000; i++) {
-            $scope.bigvalues[i] = i + 'Test ======================================================= : ' +i;
+            $scope.bigvalues[i] = {
+                col1 : i,
+                lib : 'Test ======================================================= : ' +i,
+                lib2 : 'Lib 22 -------------------------------------------------- : ' +i
+            };
         }
 
         var leftScrollHtml = document.getElementById('leftScroll');
@@ -33,4 +37,11 @@ angular.module('nodeApp')
             console.log(leftEltScroll.prop('scrollTop'));
             leftEltScroll.prop('scrollTop', eltScroll.prop('scrollTop'));
         });
-  });
+
+
+        $scope.$on('virtual-scroll', function (event, evt) {
+            $('#treeHeader').scrollLeft(evt.target.scrollLeft);
+            console.log("Header Receive event - " + evt.target.scrollLeft);
+        });
+
+    });
